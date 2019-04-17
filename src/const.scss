@@ -1,0 +1,28 @@
+
+$hcolor: #5f6368;
+$qcolor: #3c4043;
+
+$pcolor: rgba(0,0,0,0.87);
+$activecolor: #3367D6;
+
+
+
+
+*{
+
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a, a:hover{
+
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+
+  list-style: none;
+}

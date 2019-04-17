@@ -1,0 +1,52 @@
+header{
+
+  padding: 20px;
+  padding-bottom: 0;
+  border-bottom: 1px solid rgba(151,151,151,0.5);
+  background-color: white;
+  position:sticky;
+  top:0;
+
+  .title{
+
+    display: flex;
+    margin-bottom: 20px;
+
+    img{
+
+      margin-right: 10px;
+      align-self: center;
+    }
+
+    h1{
+
+      color: $hcolor;
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+
+  nav{
+
+
+    ul{
+      display: flex;
+
+      li{
+        padding: 8px 0;
+        color: $hcolor;
+        font-weight: 500;
+        margin-right: 30px;
+        font-size: 15px;
+
+
+      }
+
+      li.active{
+
+        color: $activecolor;
+        border-bottom: 3px solid $activecolor;
+      }
+    }
+  }
+}
